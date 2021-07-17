@@ -1,0 +1,80 @@
+
+.dd{
+     width:238px
+}
+.img{
+position: relative;
+    top: 12rem;
+    left: 24rem;
+}
+.amount-progress{
+	  width: 82%;
+    margin-left: 12%;
+    height: 9px;
+    background-color: #0091EA;
+    border-radius: 5px;
+    position: absolute;
+    top: 257px;
+    left: -7px
+}
+
+.link{
+
+  align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(48,143,181);
+    background: linear-gradient(
+45deg
+, rgba(48,143,181,0.4187212311819698) 22%, rgba(143,98,63,0.5114178603954529) 53%);
+    width: 100%;
+    height: 56px;
+}
+
+
+
+.Link {
+  text-decoration: none;
+  background-color: antiquewhite;
+}
+
+  a:-webkit-any-link{
+      text-decoration:none;
+  }
+
+.hc{
+   display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 39rem;
+    top:  9rem;
+}
+
+h3{
+margin: 1em 0 0.5em 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #00caa6;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    line-height: 55px;
+    text-shadow: 2px 5px 0 rgb(0 0 0 / 20%);
+    text-align: center;
+}
+
+
+.img1{
+    height: 288px;
+    width: 239px;
+    margin-left: 23rem;
+}
+
+
+.MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #3f51b5;
+    width: 106px;
+    position: relative;
+    left: 70px;
+}
