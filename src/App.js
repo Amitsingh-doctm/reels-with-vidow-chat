@@ -10,6 +10,8 @@ import  Home from './home';
 import Crd from './Card';
 import Signup1 from './signup1';
 import Home1  from    './home1'; 
+import Feed  from  './feed';
+import Profile from "./profile"
 
 import { BrowserRouter as Router, Switch, Route,Link } from 'react-router-dom';
 
@@ -17,20 +19,21 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-        <Nav/>
-       
+        <Nav/>  
         <Switch>
-          <Route path="/" component={Signup1} exact></Route>
+        <Route path="/" component={Signup1} exact></Route>
           </Switch>
         <Switch>
           <Route path="/login" component={Crd} exact></Route>
         </Switch> 
         <Switch>
-          <Route path="/home" component={Home1} exact></Route>
+          <Route path="/Home"  component={Feed} exact></Route>
           </Switch>
-      </Router>
+        <Switch>
+          <Route path="/profile" component={Profile} exact></Route>
+        </Switch>
+        </Router>
     </AuthProvider>
-    
   )
 }
 export default App;

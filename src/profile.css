@@ -1,0 +1,141 @@
+
+.pimg{
+    width: 113px;
+    height: 78px;
+    position: absolute;
+    left: 88px;
+    top: 0px;
+    border-radius: 1rem;
+}
+
+.users{
+        position: relative;
+        
+    height: 159px;
+    width: 200px;
+    background: rgb(48,181,167);
+    position: relative;
+    left: 87px;
+    top: 0px;
+    border-radius: 1rem;
+    margin-top:2px;
+}
+.inputc{
+    position: absolute;
+    bottom: 1px;
+    left: 2px;
+    width: 88%;
+    border-radius: 1rem;
+}
+
+.chatboox{
+    width: 472px;
+    background-color: cornflowerblue;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sub{
+    position: absolute;
+    bottom: 2px;
+    width: 48px;
+    height: 22px;
+    left: 424px;
+    border-radius: 1rem;
+}
+
+.frb{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 92px;
+    flex-direction: column-reverse;
+    left: 27px;
+}
+
+.fra{
+    position: absolute;
+    top: 58px;
+    right: 73px;
+}
+
+.bb{
+    position: absolute;
+    right: 59px;
+    bottom: 56px;
+}
+.omsgo{
+    background: white;
+    border-radius: 1rem;
+    width:auto;
+    text-align: center;
+    margin-top: 6px;
+}
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.message {
+    margin: 0 15px 20px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 15px;
+    width: auto;
+    min-width:1vw;
+    max-width: 80%;
+}
+
+.message.from {
+    margin: 0 15px 20px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 15px;
+    width: auto;
+    min-width:1vw;
+    max-width: 80%;
+
+    background-color: #e5e4e9;
+    color: #363636;
+    margin-right: auto;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 121px;
+}.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: bisque;
+}

@@ -222,6 +222,8 @@ export default function CustomizedInputs() {
                 await database.users.doc(uid).set({
                     email: email,
                     userId: uid,
+                    msg:[],
+                    freindslist: [],
                     username: name,
                     createdAt: database.getCurrentTimeStamp(),
                     profileUrl: downloadUrl,
@@ -239,7 +241,7 @@ export default function CustomizedInputs() {
     const handleFileSubmit = (e) => {
         let file = e.target.files[0];
         console.log(file);
-        if (file != null) {
+        if (file != null) { 
             setFile(file)
         }
     }

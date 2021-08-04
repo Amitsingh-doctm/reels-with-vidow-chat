@@ -10,7 +10,8 @@ export default function nav() {
             <Link    classname= "links" to="/"> SINGNUP</Link>
             <Link classname="links" to="/login"> LOGIN </Link>
             <Link classname="links"  to="/home">  HOME </Link>
-            <Link classname="links"  to="/signout">SIGNOUT</Link>
+        
+            <Link classname="links" to="/profile">PROFILE</Link>
         </div>
 
     )

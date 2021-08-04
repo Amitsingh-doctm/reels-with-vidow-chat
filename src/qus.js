@@ -1,53 +1,23 @@
 
 
 
-let str =  prompt("Question")
-let arr = [];
-    for( let i=0;i<str.length;i++)
-    {
-        if(str[i]=='(' )
-        {
-            arr.push('(');
-        }
-        else if (str[i]==')')
-        {
-          arr.push(')');
-        }
 
-    }
-      
-        console.log(arr);
-        for( let i=0;i< arr.length;i++)
-        {
-            if(arr[i]!=arr[i+1])
-            {
-               arr.pop();
-               arr.pop();
-            }
-            
 
-        }
-        if(arr.length!=0)
-        {
-     while(arr.length!=0)    {   
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] != arr[i + 1]) {
-        arr.pop();
-        arr.pop();
-    }
-}
-     }
-        }
-        if(arr.length!=0) {{
-            console.log(true);
-        }}
+const d = new Date();
+var n1 = d.toLocaleTimeString();
+var n2 = d.toDateString();
+  let x= n1.toUpperCase();
+      let g= n2.slice(4);
+      let f=g+" "+x;
 
-        
-        if(arr.length!=0)
-        {
-            return 1;
-        }
-        else{
-            return 0;
-        }
-    
+  
+
+
+var array = [{ id: 1, date: f }, { id: 2, date: 'Aug 1 2021 5: 41: 25 PM' }, { id: 1, date: 'Aug 1 2021 5: 41: 25 AM' }];
+
+array.sort(function (a, b) {
+    var c = new Date(a.date);
+    var d = new Date(b.date);
+    return c - d;
+});
+console.log(array);
